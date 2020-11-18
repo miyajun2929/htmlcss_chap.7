@@ -11,12 +11,14 @@ header {
   background-position: bottom;
   background-size: cover;
 }
+/* 解答は、上記を.main-visualで指定 */
 
 h1 {
   padding-top: 20px;
   padding-left: 20px;
   color: gray;
 }
+/* 解答は、.headlineで指定。padding: 20px; のみ*/
 
 main {
   padding-top: 50px;
@@ -24,6 +26,7 @@ main {
   display: flex;
   justify-content: center;
 }
+/* flex利用してない */
 
 .menu-item1 {
   width: 840px;

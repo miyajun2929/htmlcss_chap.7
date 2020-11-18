@@ -6,18 +6,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+ <body>
     <header>
       <h1>サービス紹介</h1>
     </header>
+    <!-- <section class="main-visual"> -->
+    <!--    <h1 class="headline">サービス紹介</h1> -->
+    <!-- </section> -->
 
     <main>
+      <!-- 解答は、[div class=""]ではなく[section class] -->
+      <!-- divタグでも同じ挙動だが、子要素に文章や節を作成するのでsectionタグが好ましい -->
       <div class="menu">
         <div class="menu-item1">
-          <img class="menu-image" src="img/wc-logo.png" >
+          <img class="menu-image" src="img/wc-logo.png" > <!-- h2タグで記述 -->
             <p>マンツーマンサポートによる学習で<br>
                確実にWebスキルを習得できるプログラミングスクールです。<br>
-               <a href="https://web-camp.io/">webサイト</a>
+               <a href="https://web-camp.io/">webサイト</a> <!-- pタグの外でok -->
             </p>
         </div>
 
